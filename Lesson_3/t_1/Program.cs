@@ -2,14 +2,14 @@
 //заданному номеру четверти, показывает диапазон
 //возможных координат точек в этой четверти (x и y).
 
-void Quarters (int Number)
+void Quarters(int Number)
 {
-if (Number == 1) Console.WriteLine("x > 0, y > 0");
-else if (Number==2) Console.WriteLine("x < 0 & y > 0");
-else if (Number==3) Console.WriteLine("x < 0 & y < 0");
-else if (Number==4) Console.WriteLine("x > 0 & y < 0");
-else Console.WriteLine("Не верно");
+    if (Number == 1) Console.WriteLine("x > 0, y > 0");
+    else if (Number == 2) Console.WriteLine("x < 0 & y > 0");
+    else if (Number == 3) Console.WriteLine("x < 0 & y < 0");
+    else if (Number == 4) Console.WriteLine("x > 0 & y < 0");
+    else Console.WriteLine("Не верно");
 }
-Quarters (1);
-Quarters (4);
-Quarters (6);
+Quarters(1);
+Quarters(4);
+Quarters(6);
